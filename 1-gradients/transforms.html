@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<title>Transforms</title>
+<style type="text/css">
+
+	.box {
+	height: 200px;
+	width: 900px;
+	background:	linear-gradient(to right, #F0C27B, #4B1248);
+	margin: 25px;	 
+}
+	.box1 {
+	height: 200px;
+	width: 900px;
+	background:	linear-gradient(-45deg,	rgba(0,0,0,0), red);
+	margin: 25px; 
+}
+	.box2 {
+	height: 200px;
+	width: 900px;
+	background:	radial-gradient(#5f2c82, #3498db);
+	margin: 25px;
+}
+
+	.box3 {
+	height: 200px;
+	width: 900px;
+	background: linear-gradient(red, green 20%, yellow 70%, black);
+	margin: 25px;
+}
+
+</style>
+
 </head>
 <body>
 
-
+	<div class="box">Linear</div>
+	<div class="box1">Transparency</div>
+	<div class="box2">Radial</div>
+	<div class="box3">Multiple Stops</div>
+	
 
 </body>
 </html>
